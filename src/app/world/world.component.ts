@@ -20,12 +20,12 @@ export class WorldMapComponent {
     console.log('Country code:', countryCode);
 
     const previousSelectedCountry =
-      document.querySelector('[stroke="#FF00FF"]');
+      document.querySelector('[stroke="#C8AF8F"]');
     previousSelectedCountry?.setAttribute('stroke', '#000000');
     previousSelectedCountry?.setAttribute('stroke-width', '');
 
     if (countryCode) {
-      target.setAttribute('stroke', '#FF00FF');
+      target.setAttribute('stroke', '#C8AF8F');
       target.setAttribute('stroke-width', '2');
       this.apiService
         .getCountryDetailsByCode(countryCode)
