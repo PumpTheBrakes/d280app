@@ -1,3 +1,8 @@
+Student ID:011081503
+Angular Version: 19.0.0
+
+
+
 # D280app
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
