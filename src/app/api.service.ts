@@ -19,7 +19,7 @@ export class WorldMapApiService {
           capitalCity: countryData.capitalCity,
           region: countryData.region.value,
           incomeLevel: countryData.incomeLevel.value,
-          latitude: countryData.latitude,
+          lendingType: countryData.lendingType.value,
           longitude: countryData.longitude,
         };
       })

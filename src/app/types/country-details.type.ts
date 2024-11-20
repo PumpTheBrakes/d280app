@@ -3,6 +3,6 @@ export type CountryDetails = {
     capitalCity: string;
     region: string;
     incomeLevel: string;
-    latitude: number;
+    lendingType: string;
     longitude: number;
   };
