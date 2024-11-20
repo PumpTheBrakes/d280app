@@ -1,0 +1,9 @@
+.details-label {
+    font-weight: bold;
+    border-bottom: 2px solid var(--blue);
+  }
+  
+  span {
+    text-align: right;
+    font-weight: normal;
+  }
